@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import Typography from '@material-ui/core/Typography'
+
 import './App.css';
 import Bar from './components/Bar/Bar'
 import Logo from './components/Logo/Logo'
@@ -22,7 +22,7 @@ function App() {
         </header>
         <footer>
           <div class="footer">
-              <h2>M&M Metalúrgica - San Luis Argentina - { new Date().getFullYear() }</h2>
+              <h3>M&M Metalúrgica Moderna - San Luis Argentina - { new Date().getFullYear() }</h3>
           </div>
         </footer>
       </div>

@@ -1,6 +1,6 @@
-import React from 'react'
+import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import banner from '../../assets/banner.jpg'
+import banner from '../../assets/banner.jpg';
 import Hero from '../Hero/Hero';
 
 const useStyles = makeStyles((theme) => ({

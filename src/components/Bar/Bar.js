@@ -27,7 +27,7 @@ function Bar(props){
             <AppBar position="static">
                 <Toolbar>
                     <Typography variant="h6" className={classes.title}>
-                    M&M
+                    M&M Metalúrgica Moderna
                     </Typography>
                     <Button color="inherit" onClick={() => nav('')}>Inicio</Button>
                     <Button color="inherit" onClick={() => nav('contact')}>Contáctanos</Button>
